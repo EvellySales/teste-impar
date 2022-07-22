@@ -1,18 +1,18 @@
   import React, { useState } from "react";
   import styled from "styled-components";
-  import "./styled.css";
  import lupa from "./image/lupa.png";
  import fundo from "./image/fundo.png";
  import logo from "./image/logo.png";
 import Card from "./components/Cards/Cards";
   
   
-
   const HomeContainer = styled.div `
     display: flex;
     flex-direction: center;
     margin: 0px;
     padding: 0px;
+   
+    
 
   `
   const Header = styled.header `
@@ -27,6 +27,7 @@ import Card from "./components/Cards/Cards";
     width: 100%;
     height: 64px;
     position: absolute;
+    
  
 `
   const ImgLogo = styled.img `
@@ -50,6 +51,7 @@ import Card from "./components/Cards/Cards";
     position: absolute;
     border: 1px solid #000;
     background-image: url(${fundo});
+    
 
     `
   const Input = styled.input `
@@ -86,16 +88,26 @@ import Card from "./components/Cards/Cards";
     padding: 0px;
     width: 100%;
     height: 100vh;
+
+   
+    
+   
   
   `
   const ContainerBody = styled.body`
-   display: grid;
-   justify-content: start;
-   width: 100%;
-   height: 100vh;
-  margin-top: 263px;
-  p {
-        display: inline;
+    display: grid;
+    justify-content: start;
+    width: 100%;
+    height: 100vh;
+    margin-top: 263px;
+    
+   
+  
+ 
+  `
+  const Titulo = styled.p`
+  position: absolute;
+     display: inline;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
       font-size: 32px;
       font-weight: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-muli);;
@@ -106,27 +118,26 @@ import Card from "./components/Cards/Cards";
       letter-spacing: 0px;
       color: #5F1478;
       opacity: 1;
-      margin-left: 130px;
-  }
-    
+      margin-left: 23px;
+      margin-top: 40px;
+      
   `
   
   const BotaoCriarCard = styled.button `
+  position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: white;
     justify-content: space-evenly ;
     background-color: #E76316;
-    margin-top: 0px;
-    margin-left: 917px;
     top: 293px;
-    left: 1041px;
+    left: 1000px;
     width: 173px;
     height: 48px;
     border-radius: 8px;
     border-width: 0px;
-    opacity: 1;
+    margin-top: 4px;
     font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-18)/23px var(--unnamed-font-family-muli);
     letter-spacing: var(--unnamed-character-spacing-0);
     color: var(---cor-branco);
@@ -187,8 +198,9 @@ import Card from "./components/Cards/Cards";
   <Body>
   
     <ContainerBody>
-<p> Resultado de busca</p>
-    <BotaoCriarCard onClick={mudandoPage} > Novo card</BotaoCriarCard>
+<Titulo> Resultado de busca</Titulo>
+    <BotaoCriarCard onClick={mudandoPage}> Novo card</BotaoCriarCard>
+
     <Card/>
     </ContainerBody>
    

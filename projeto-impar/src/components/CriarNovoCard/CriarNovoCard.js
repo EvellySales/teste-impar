@@ -1,25 +1,25 @@
-import React from "react";
-import styled from "styled-components";
+// import React from "react";
+// import styled from "styled-components";
 
 
 
-const CriaCard = styled.div `
+// const CriaCard = styled.div `
 
-`
+// `
 
-const CriarNovoCard = () => {
+// const CriarNovoCard = () => {
 
 
-    return (
+//     return (
 
-    <CriaCard>
-    <input></input>
-    <input></input>
-     oiii
+//     <CriaCard>
+//     <input></input>
+//     <input></input>
+//      oiii
  
-        </CriaCard>
+//         </CriaCard>
     
-    )
-}
+//     )
+// }
 
-export default CriarNovoCard;
+// export default CriarNovoCard;

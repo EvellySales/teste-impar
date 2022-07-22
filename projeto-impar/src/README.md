@@ -9,7 +9,7 @@
 ---
 
 <h2 >
-<a href="https://teste-impar-evelly.surge.sh/">Acessar a demonstração</a>
+<a href="https://teste-impar-evelly.surge.sh">Acessar a demonstração</a>
 </h2>
 
 ---
@@ -76,5 +76,6 @@ $ npm run start
 - Botão Novo Card:
 É uma tag "buttom" com a funcionalidade Onclick que ao usuário clicar na palavra "Novo Card" rendezeriza uma mensagem para o usuário que "Não foi possível criar novo card!" 
 
-## 📢 Observação
-- 🛠 Botão lupa e input pesquisar ainda estão em construção de código. 
+## 📢 Observação: em construção 🚧
+-  Botão lupa e input pesquisar 
+- Separar estilização no componente styled.
