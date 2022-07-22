@@ -4,31 +4,31 @@
 </h1>
 
 <h1 align="center">Projeto Teste ímpar</h1>
+<img src=./image/cardsProgramacao.png>
 <h2 align="center">Site: Cards de programação</h2>
 
 ---
-
-<h2 >
-<a href="https://teste-impar-evelly.surge.sh">Acessar a demonstração</a>
-</h2>
+<h3 align="center">
+<a href="https://teste-impar-evellysales.surge.sh/"> acessar demonstração do site</a>
+</h3>
 
 ---
 
 ## Índice
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
-- [Como Baixar projetos](#-como-baixar-o-projeto)
-- [Funcionalidade do projeto](#-funcionalidades-do-projeto)
+- [Como Baixar o projetos](#-como-baixar-o-projeto)
+- [Funcionalidades do projeto](#-puncionalidades-do-projeto)
 ---
 
-## 📃Sobre:
+## 📃 Sobre
 
 ### Este projeto tem como finalidade o desenvolvimento prático e a apresentação de um site de cards para avaliação no **processo seletivo da empresa ímpar**  que dispõe a vaga de Front-end Jr.
 <br>
 
 ---
 
-## 💻Tecnologias utilizadas:
+## 💻 Tecnologias utilizadas
 
 ### O projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -38,7 +38,7 @@
 
 ---
 
-## 📂 Como baixar o projeto:
+## 📂 Como baixar o projeto
 
 ```bash
 # clonar repositório
