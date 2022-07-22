@@ -18,7 +18,7 @@
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como Baixar o projetos](#-como-baixar-o-projeto)
-- [Funcionalidades do projeto](#-puncionalidades-do-projeto)
+- [Funcionalidades do projeto](#-funcionalidades-do-projeto)
 ---
 
 ## 📃 Sobre
@@ -66,16 +66,33 @@ $ npm run start
 
 
 ### Conjunto de cards de programação 
+<br>
 
-- Botão excluir:
-É uma tag "p" com a funcionalidade Onclick que ao usuário clicar na palavra excluir dos cards rendezeriza uma mensagem para o usuário que "não foi possível excluir" .
+- **Botão excluir**:
 
-- Botão editar:
-É uma tag "p" com a funcionalidade Onclick que ao usuário clicar na palavra editar dos cards rendezeriza uma mensagem para o usuário que "não foi possível editar" 
+É uma tag "p" com a funcionalidade Onclick que ao usuário clicar na palavra excluir dos cards renderiza uma mensagem para o usuário que "não foi possível excluir" .
 
-- Botão Novo Card:
-É uma tag "buttom" com a funcionalidade Onclick que ao usuário clicar na palavra "Novo Card" rendezeriza uma mensagem para o usuário que "Não foi possível criar novo card!" 
+<img src="./image/print-excluir.png"/>
+
+---
+
+- **Botão editar:**
+
+É uma tag "p" com a funcionalidade Onclick que ao usuário clicar na palavra editar dos cards renderiza uma mensagem para o usuário que "não foi possível editar" 
+<img src="./image/print-editar.png"/>
+
+---
+
+- **Botão Novo Card:**
+
+É uma tag "buttom" com a funcionalidade Onclick que ao usuário clicar na palavra "Novo Card" renderiza uma mensagem para o usuário que "Não foi possível criar novo card!" 
+
+<img src="./image/print-botaoCard.png"/>
+
+---
 
 ## 📢 Observação: em construção 🚧
 -  Botão lupa e input pesquisar 
 - Separar estilização no componente styled.
+
+# <h3 align="center">Desenvolvido por **Evelly Sales**  </h3>
