@@ -3,8 +3,14 @@
 <img src="./image/logo.png" />
 </h1>
 
-<h1>Projeto Teste ímpar</h1>
-<h2>Site: Cards de programação</h2>
+<h1 align="center">Projeto Teste ímpar</h1>
+<h2 align="center">Site: Cards de programação</h2>
+
+---
+
+<h2 >
+<a href="https://teste-impar-evelly.surge.sh/">Acessar a demonstração</a>
+</h2>
 
 ---
 
@@ -12,7 +18,7 @@
 - [Sobre](#-sobre)
 - [Tecnologias utilizadas](#-tecnologias-utilizadas)
 - [Como Baixar projetos](#-como-baixar-o-projeto)
-- [Funcionalidade do projeto](#-funcionalidade-do-projeto)
+- [Funcionalidade do projeto](#-funcionalidades-do-projeto)
 ---
 
 ## 📃Sobre:
